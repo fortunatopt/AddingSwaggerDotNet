@@ -1,8 +1,16 @@
+# SwaggerSwagger
+
+##### It Is Easy To Add Swagger To A .Net Stardard Web Api
+
 Add the Swashbuckle NuGet package:
 
-Right click on Reference > select Manage NuGet Packages > In new window select "Browse" > Search by "Swashbuckle" and click on "Install".
+Right click on References > Manage NuGet Packages
 
 OR
 
 Tools > NuGet Package Manager > Manage NuGet Packages for Solution...
-Search by "Swashbuckle" and click on "Install".
+
+Click on Browse, and then search by "Swashbuckle", and click "Install"
+
+This will add Swagger to your project, and automatically generate the SwaggerUI by going here:
+http(s)://{your url}/swagger
